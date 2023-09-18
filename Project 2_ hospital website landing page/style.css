@@ -1,0 +1,756 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Poppins:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* first page css */
+.background-img{
+    position: relative;
+    background-image: url(background.png);
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;   
+}
+
+.firstPage{
+    position: relative;
+    
+}
+
+
+.navbar{
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 80px;
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.brandName p{
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.links{
+    width: 30%;
+    text-align: left;
+}
+
+.links a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 0.85rem;
+    margin: 10px;
+    font-weight: bold;
+    
+}
+
+.quote-button button{
+    height: 50px;
+    width: 150px;
+    color: white;
+    font-weight: bold;
+    align-content: center;
+    border-radius: 10px;
+    border: 1px solid rgb(129, 129, 230);
+    background-color: rgb(129, 129, 230);
+
+}
+
+.quote-button button i{
+    margin-left: 5px;
+}
+
+.box{
+    display: flex;
+    position: absolute;
+    top: 10vh;
+    height: 80vh;
+    width: 100vw;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.left-box{
+    color: white;
+}
+
+.left-box .heading{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.lines{
+    color: rgb(241, 206, 206);
+    margin-top: 20px;
+}
+
+.two-button button{
+    border: 1px solid white;
+    border-radius: 20px;
+    height: 40px;
+    width: 150px;
+    margin-top: 20px;
+    margin-right: 10px;
+    color:white;
+    background-color: transparent;
+    
+}
+
+.two-button .btn1{
+    background-color: rgb(129, 129, 230);
+}
+
+.right-box{
+    height: 465px;
+    width: 250px;
+    border: 2px solid rebeccapurple;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.book{
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+form p{
+    font-size: 0.85rem;
+    /* font-weight: bold; */
+    color: rgb(65, 78, 78);
+}
+
+form input{
+    height: 35px;
+    width: 180px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border: 1px solid rgb(176, 164, 164);
+    border-radius: 5px;
+}
+
+form select{
+    height: 40px;
+    width: 180px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 0.7rem;
+    border: 1px solid rgb(176, 164, 164);
+    border-radius: 5px;
+}
+
+form input::placeholder{
+    padding: 10px;
+    font-size: 0.7rem;
+}
+
+.right-box button{
+    height: 45px;
+    width: 180px;
+    color: white;
+    background-color:rgb(129, 129, 230) ;
+    border-radius: 5px;
+    border: 1px solid rgb(129, 129, 230);
+}
+/* first page css ends */
+
+/* second page css  */
+
+.secondPage{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* gap: 100px;/ */
+}
+
+.secondPage .para{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.secondPage .para1{
+    font-weight: bold;
+    font-size: 2rem;
+    margin-top: 80px;
+}
+
+.secondPage .para2{
+    margin-top: 2px;
+    font-size: 0.85rem;
+    color: rgb(131, 112, 112);
+}
+
+
+.cards{
+    height: 350px;
+    width: 75vw;
+    /* border: 2px solid red; */
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+}
+
+.card1 .upper{
+    height: 100px;
+    width: 300px;
+    background-color: rgb(196, 158, 232);
+    color: white;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius:10px ;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+}
+
+.upper-para{
+    font-weight: 550;
+    margin-left: 5px;
+    font-size: 1rem;
+}
+
+
+.upper img{
+    height: 60px;
+    margin-right:10px ;
+}
+
+.lower{
+    border: 2px solid  rgb(196, 158, 232);
+    height: 250px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.lower p{
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-right: 10px;
+    font-size: 0.85rem;
+    font-weight: bold;
+    color: rgb(125, 119, 119);
+}
+
+.lower a{
+    text-decoration: none;
+    margin-left: 40px;
+    margin-top: 40px;
+    font-size: 0.9rem;
+    color:  rgb(196, 158, 232);
+}
+/* second page css ends */
+
+
+/* third page css starts */
+
+
+.thirdPage{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* gap: 100px;/ */
+}
+
+.thirdPage .para{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.thirdPage .para1{
+    font-weight: bold;
+    font-size: 2rem;
+    margin-top: 80px;
+}
+
+.thirdPage .para2{
+    margin-top: 2px;
+    font-size: 0.85rem;
+    color: rgb(131, 112, 112);
+}
+ 
+.thirdPage .cards{
+        height: 300px;
+        width: 75vw;
+        /* border: 2px solid red; */
+        margin-top: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-self: center;
+}
+
+.card-first{
+    height: 180px;
+    width: 280px;
+    padding: 40px;
+    border: 2px solid rgb(208, 199, 199);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.stars i{
+    color: rgb(230, 230, 83);
+    font-size: 25px;
+}
+
+.card-first img{
+    height: 50px;
+    width: 50px;
+}
+
+.card-first p{
+    color: rgb(147, 136, 136);
+    font-size: 0.85rem;
+    font-weight: 510;
+}
+/* third page css ends */
+
+
+/* forth page css */
+.fourthPage{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.fourthPage .para{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fourthPage .para1{
+    font-weight: bold;
+    font-size: 2rem;
+    margin-top: 80px;
+}
+
+.fourthPage .para2{
+    margin-top: 2px;
+    font-size: 0.85rem;
+    color: rgb(131, 112, 112);
+}
+
+
+.fourthPage .detail{
+    height: 450px;
+    width: 75vw;
+    /* border: 2px solid red; */
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-self: center;
+}
+
+.detail details{
+    height: 80px;
+    width: 350px;
+    
+    
+}
+
+.detail details summary{
+    font-weight: bold;
+    font-size: 1rem;
+}
+/* forth page css ends here */
+
+
+/* fifth page css */
+.fifthPage{
+    height: 120vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fifthPage .para{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fifthPage .para1{
+    font-weight: bold;
+    font-size: 2rem;
+    margin-top: 50px;
+}
+
+.fifthPage .para2{
+    margin-top: 2px;
+    font-size: 0.85rem;
+    color: rgb(131, 112, 112);
+}
+
+.fifthPage .pricing{
+    height: 650px;
+    width: 75vw;
+    /* border: 2px solid red; */
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-self: center;
+}
+
+
+.pricing-card1{
+    height: 610px;
+    width: 20vw;
+    border: 2px solid rgb(196, 158, 232);
+    border-radius: 10px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.pricing-card1 .heading1 p{
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.pricing-card1 .heading2 p{
+    color: rgb(169, 151, 151);
+    font-size: 0.9rem;
+    font-weight: 530;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.price p{
+    color:  rgb(196, 158, 232); 
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.price sup,sub{
+    font-size:0.9rem;
+}
+
+.pricing-card1 .facilities .tick{
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.pricing-card1 .facilities .tick div{
+        height: 35px;
+        width: 35px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: goldenrod;
+        color: aliceblue;
+}
+
+.pricing-card1 .facilities .tick .icon-unmark{
+    background-color: cadetblue;
+}
+
+.pricing-card1 .facilities .tick p{
+    font-size: 0.85rem;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+
+.pricing1-btn button{
+    height: 50px;
+    width: 240px;
+    border-radius: 5px;
+    font-size: 0.85rem;
+    font-weight: 550;
+    border: 1px solid  rgb(196, 158, 232);
+    background-color: rgb(196, 158, 232);
+    color: white;
+
+}
+
+.pricing-card2{
+    height: 650px;
+    width: 20vw;
+    border: 2px solid rgb(35, 10, 59);
+    border-radius: 10px;
+    background-color: rgb(34, 22, 46);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.pricing-card2 .heading1 p{
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.pricing-card2 .heading2 p{
+    color: rgb(234, 223, 223);
+    font-size: 0.9rem;
+    font-weight: 530;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.pricing-card2 .facilities .tick{
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.pricing-card2 .facilities .tick div{
+        height: 35px;
+        width: 35px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: goldenrod;
+        color: aliceblue;
+}
+
+.pricing-card2 .facilities .tick p{
+    font-size: 0.85rem;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.pricing-card3{
+    height: 610px;
+    width: 20vw;
+    border: 2px solid rgb(196, 158, 232);
+    border-radius: 10px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+
+.pricing-card3 .heading1 p{
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.pricing-card3 .heading2 p{
+    color: rgb(169, 151, 151);
+    font-size: 0.9rem;
+    font-weight: 530;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.pricing-card3 .facilities .tick{
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.pricing-card3 .facilities .tick div{
+        height: 35px;
+        width: 35px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: goldenrod;
+        color: aliceblue;
+}
+
+.pricing-card3 .facilities .tick p{
+    font-size: 0.85rem;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+/* pricing css ends */
+
+/* next div */
+
+.subs{
+    height: 300px;
+    width: 100vw;
+    background-color: rgb(22, 22, 45);
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.left-div .heading{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.right-div input{
+    height: 50px;
+    width: 250px;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+.right-div input::placeholder{
+    padding-left: 20px;
+    font-weight: bold;
+}
+
+.right-div button{
+    height: 53px;
+    width: 150px;
+    margin-left: -10px;
+    background-color:rgb(213, 174, 249) ;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: white;
+    border: 1px solid rgb(213, 174, 249);
+    
+}
+
+/* next ends here */
+
+/* foooter section */
+
+
+footer{
+    height: 400px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.first{
+    display: flex;
+    flex-direction: column;
+    /* gap: 25px; */
+}
+
+.first .heading{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.first .lines{
+    font-size: 0.9rem;
+    color: #787171;
+}
+
+.first .icon i{
+    font-size: 1.5rem;
+    color: rgb(199, 143, 251);
+    margin-right: 20px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.second{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.second .heading{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.a-tag a{
+    display: block;
+    color:#787171;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+
+.third{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.third .heading{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.third .a-tag a{
+    display: block;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+
+.fourth{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.fourth .heading{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.fourth .a-tag a{
+    display: block;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.copy-right{
+    height: 40px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copy-right p{
+    font-size: 0.85rem;
+    color: #787171;
+}

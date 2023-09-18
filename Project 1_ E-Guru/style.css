@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+/* navbar css start here*/
+
+.navbar{
+    height: 100px;
+    width: 100vw;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.nav-logo{
+    display: flex;
+    align-items: center;
+    
+}
+
+.nav-logo p{
+    margin-left: 10px;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+.nav-list a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.612);
+    margin: 60px;
+    font-size: 0.85rem;
+    font-weight: bold;
+}
+
+.nav-list a:hover{
+    color: #ff0000;
+}
+
+.nav-signup button{
+    border: 2px solid rgba(0, 0, 0, 0.79);
+    height: 40px;
+    width: 150px;
+}
+
+.nav-signup button:hover{
+    color: white;
+    background-color: rgb(83, 87, 210);
+}
+
+/* navbar css ends here */
+
+
+/* main content css starts from here */
+.content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 40px;
+    height: 100vh;
+}
+
+.left-box >p{
+    font-size: 3.5rem;
+    font-weight: bolder;
+}
+
+.para-box{
+    border-left: 2px solid rgb(0, 0, 0);
+    margin-top: 15px;
+    padding: 8px;
+    color: rgba(0, 0, 0, 0.664);
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+button{
+    height: 45px;
+    width: 150px;
+}
+
+button:hover{
+    color: white;
+    background-color: rgba(255, 0, 0, 0.795);
+}
+
+.orange-arrow{
+    position: absolute;
+    top: 200px;
+}
+
+.main-image{
+    position: relative;
+    right: 30px;
+    top: 30px;
+    height: 360px;
+    border-radius: 30%;
+    overflow: hidden;
+    clip-path: ellipse(50% 70%);
+    object-fit: cover;    
+}
+
+.main-image-bg{
+    position: absolute;
+    height: 380px;
+    right: 165px;
+    top: 295px; ;
+    overflow-y: hidden;
+    /* border: 2px solid black; */
+}
+
+.green-arrow{
+    position: absolute;
+    top: 680px;
+    right: 550px;
+}
+
+.main-image-pattern{
+    position: absolute;
+    right: 145px;
+    height: 380px;
+    top: 260px;   
+}
+
+
+
+
+
+/* main content css end here */
+
+
+/* footer section css starts from here */
+
+.container{
+    height: 350px;
+    width: 100vw;
+    background-color: rgb(20, 31, 67);
+    color: #ffffff;
+    display: flex;
+
+    justify-content: space-around;
+    align-items: center;
+}
+
+.heading{
+    font-size: 2rem;
+    gap: 20px;
+}
+
+.box1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.para1{
+    font-size: 0.85rem;
+    /* margin-top: 10px; */
+    color: #ffffffad;
+}
+
+
+
+.box2 img{
+    background-color: rgba(245, 245, 220, 0.603);
+    height: 45px;
+    width: 45px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    object-fit: scale-down;
+}
+
+.box2 small{
+    font-size: 0.7rem;
+    color:#ffffffad ;
+}
+
+.box2 p{
+    margin-bottom: 10px;
+}
+
+
+
+.box3 img{
+    background-color: orange;
+    height: 45px;
+    width: 45px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    object-fit: scale-down;
+}
+
+.box3 small{
+    font-size: 0.7rem;
+    color:#ffffffad ;
+}
+
+.box3 p{
+    margin-bottom: 10px;
+}
+
+
+
+.box4 img{
+    background-color:rgba(137, 43, 226, 0.9);
+    height: 45px;
+    width: 45px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    object-fit: scale-down;
+}
+
+.box4 small{
+    font-size: 0.7rem;
+    color:#ffffffad ;
+}
+
+.box4 p{
+    margin-bottom: 10px;
+}
+
+/* footer section ends here */
